@@ -1,0 +1,405 @@
+Sector number,Name,Unit,Region,DR_WEOH_impact_(DALYper$),TR_WEOH_impact_(DALYper$)
+1,Oilseed farming,USA,America,8.39E-09,2.91E-08
+2,Grain farming,USA,America,1.12E-08,4.61E-08
+3,Vegetable and melon farming,USA,America,2.44E-08,4.88E-08
+4,Fruit and tree nut farming,USA,America,5.54E-08,7.62E-08
+5,"Greenhouse, nursery, and floriculture production",USA,America,3.48E-08,5.88E-08
+6,Other crop farming,USA,America,6.13E-08,8.66E-08
+7,Dairy cattle and milk production,USA,America,1.21E-07,1.53E-07
+8,"Beef cattle ranching and farming, including feedlots and dual-purpose ranching and farming",USA,America,7.20E-09,3.46E-08
+9,Poultry and egg production,USA,America,2.23E-08,6.25E-08
+10,"Animal production, except cattle and poultry and eggs",USA,America,3.96E-08,5.69E-08
+11,Forestry and logging,USA,America,2.71E-08,5.92E-08
+12,"Fishing, hunting and trapping",USA,America,7.12E-08,8.32E-08
+13,Support activities for agriculture and forestry,USA,America,1.08E-07,1.21E-07
+14,Oil and gas extraction,USA,America,2.21E-09,1.16E-08
+15,Coal mining,USA,America,1.82E-08,3.23E-08
+16,"Copper, nickel, lead, and zinc mining",USA,America,1.09E-08,2.65E-08
+17,"Iron, gold, silver, and other metal ore mining",USA,America,6.76E-09,2.47E-08
+18,Stone mining and quarrying,USA,America,3.24E-08,5.04E-08
+19,Other nonmetallic mineral mining and quarrying,USA,America,2.45E-08,3.94E-08
+20,Drilling oil and gas wells,USA,America,7.28E-09,1.93E-08
+21,Other support activities for mining,USA,America,9.47E-09,2.34E-08
+22,"Electric power generation, transmission, and distribution",USA,America,1.31E-08,2.53E-08
+23,Natural gas distribution,USA,America,7.87E-09,1.93E-08
+24,"Water, sewage and other systems",USA,America,5.18E-09,2.71E-08
+25,Health care structures,USA,America,4.73E-08,6.84E-08
+26,Educational and vocational structures,USA,America,4.73E-08,6.80E-08
+27,Nonresidential maintenance and repair,USA,America,4.71E-08,7.54E-08
+28,Residential maintenance and repair,USA,America,4.71E-08,7.83E-08
+29,Office and commercial structures,USA,America,4.73E-08,7.01E-08
+30,Multifamily residential structures,USA,America,4.73E-08,5.88E-08
+31,Other residential structures,USA,America,4.71E-08,7.50E-08
+32,Manufacturing structures,USA,America,4.73E-08,6.98E-08
+33,Other nonresidential structures,USA,America,4.73E-08,7.50E-08
+34,Power and communication structures,USA,America,4.73E-08,6.30E-08
+35,Single-family residential structures,USA,America,4.73E-08,6.86E-08
+36,Transportation structures and highways and streets,USA,America,4.73E-08,6.84E-08
+37,Sawmills and wood preservation,USA,America,7.64E-08,1.24E-07
+38,"Veneer, plywood, and engineered wood product manufacturing",USA,America,5.52E-08,1.01E-07
+39,Millwork,USA,America,5.65E-08,1.05E-07
+40,All other wood product manufacturing,USA,America,1.15E-07,1.56E-07
+41,Clay product and refractory manufacturing,USA,America,5.92E-08,8.31E-08
+42,Glass and glass product manufacturing,USA,America,2.13E-08,4.36E-08
+43,Cement manufacturing,USA,America,1.33E-08,3.40E-08
+44,Ready-mix concrete manufacturing,USA,America,4.62E-08,7.18E-08
+45,"Concrete pipe, brick, and block manufacturing",USA,America,5.81E-08,8.76E-08
+46,Other concrete product manufacturing,USA,America,7.71E-08,1.04E-07
+47,Lime and gypsum product manufacturing,USA,America,2.81E-08,4.90E-08
+48,Abrasive product manufacturing,USA,America,1.42E-08,2.86E-08
+49,Cut stone and stone product manufacturing,USA,America,1.08E-07,1.34E-07
+50,Ground or treated mineral and earth manufacturing,USA,America,2.70E-08,4.73E-08
+51,Mineral wool manufacturing,USA,America,8.68E-09,3.02E-08
+52,Miscellaneous nonmetallic mineral products,USA,America,1.83E-08,3.94E-08
+53,Iron and steel mills and ferroalloy manufacturing,USA,America,1.58E-09,2.47E-08
+54,Steel product manufacturing from purchased steel,USA,America,1.72E-08,4.07E-08
+55,Alumina refining and primary aluminum production,USA,America,1.21E-08,3.81E-08
+56,Aluminum product manufacturing from purchased aluminum,USA,America,1.45E-08,4.46E-08
+57,Nonferrous Metal (except Aluminum) Smelting and Refining,USA,America,2.95E-09,2.45E-08
+58,"Copper rolling, drawing, extruding and alloying",USA,America,2.47E-08,5.78E-08
+59,"Nonferrous metal (except copper and aluminum) rolling, drawing, extruding and alloying",USA,America,1.57E-08,4.09E-08
+60,Ferrous metal foundries,USA,America,6.96E-08,8.67E-08
+61,Nonferrous metal foundries,USA,America,1.61E-07,1.87E-07
+62,Custom roll forming,USA,America,7.32E-08,9.70E-08
+63,"All other forging, stamping, and sintering",USA,America,4.23E-08,6.96E-08
+64,"Metal crown, closure, and other metal stamping (except automotive)",USA,America,3.60E-08,6.07E-08
+65,Cutlery and handtool manufacturing,USA,America,3.15E-08,5.18E-08
+66,Plate work and fabricated structural product manufacturing,USA,America,5.66E-08,8.29E-08
+67,Ornamental and architectural metal products manufacturing,USA,America,4.58E-08,6.96E-08
+68,Power boiler and heat exchanger manufacturing,USA,America,8.78E-09,3.47E-08
+69,Metal tank (heavy gauge) manufacturing,USA,America,3.04E-08,5.47E-08
+70,"Metal can, box, and other metal container (light gauge) manufacturing",USA,America,8.77E-09,3.78E-08
+71,Hardware manufacturing,USA,America,1.57E-08,4.36E-08
+72,Spring and wire product manufacturing,USA,America,3.98E-08,6.55E-08
+73,Machine shops,USA,America,3.68E-08,5.98E-08
+74,"Turned product and screw, nut, and bolt manufacturing",USA,America,2.74E-08,5.43E-08
+75,"Coating, engraving, heat treating and allied activities",USA,America,6.09E-08,8.33E-08
+76,Plumbing fixture fitting and trim manufacturing,USA,America,1.63E-08,5.00E-08
+77,Valve and fittings other than plumbing,USA,America,2.47E-08,5.17E-08
+78,Ball and roller bearing manufacturing,USA,America,1.15E-08,3.27E-08
+79,Fabricated pipe and pipe fitting manufacturing,USA,America,4.39E-08,6.80E-08
+80,"Ammunition, arms, ordnance, and accessories manufacturing",USA,America,1.89E-08,4.17E-08
+81,Other fabricated metal manufacturing,USA,America,6.10E-08,8.43E-08
+82,Farm machinery and equipment manufacturing,USA,America,1.04E-08,4.26E-08
+83,Lawn and garden equipment manufacturing,USA,America,2.19E-08,6.10E-08
+84,Construction machinery manufacturing,USA,America,1.51E-08,4.39E-08
+85,Mining and oil and gas field machinery manufacturing,USA,America,7.06E-09,3.37E-08
+86,Semiconductor machinery manufacturing,USA,America,5.68E-09,2.66E-08
+87,Other industrial machinery manufacturing,USA,America,2.69E-08,5.21E-08
+88,Optical instrument and lens manufacturing,USA,America,1.11E-08,2.70E-08
+89,Photographic and photocopying equipment manufacturing,USA,America,4.20E-08,6.11E-08
+90,Other commercial and service industry machinery manufacturing,USA,America,2.79E-08,4.92E-08
+91,Heating equipment (except warm air furnaces) manufacturing,USA,America,1.49E-08,3.98E-08
+92,"Air conditioning, refrigeration, and warm air heating equipment manufacturing",USA,America,8.57E-09,3.37E-08
+93,Industrial and commercial fan and blower and air purification equipment manufacturing,USA,America,2.53E-08,5.28E-08
+94,Industrial mold manufacturing,USA,America,4.74E-08,7.09E-08
+95,"Special tool, die, jig, and fixture manufacturing",USA,America,8.70E-08,1.08E-07
+96,Machine tool manufacturing,USA,America,4.10E-08,6.68E-08
+97,"Cutting and machine tool accessory, rolling mill, and other metalworking machinery manufacturing",USA,America,5.89E-08,8.03E-08
+98,Turbine and turbine generator set units manufacturing,USA,America,6.15E-09,3.36E-08
+99,"Speed changer, industrial high-speed drive, and gear manufacturing",USA,America,1.33E-08,3.84E-08
+100,Mechanical power transmission equipment manufacturing,USA,America,2.06E-08,4.35E-08
+101,Other engine equipment manufacturing,USA,America,5.14E-09,4.53E-08
+102,Air and gas compressor manufacturing,USA,America,1.81E-08,4.54E-08
+103,Pump and pumping equipment manufacturing,USA,America,1.32E-08,4.00E-08
+104,Material handling equipment manufacturing,USA,America,2.12E-08,4.66E-08
+105,Power-driven handtool manufacturing,USA,America,2.34E-08,4.90E-08
+106,Packaging machinery manufacturing,USA,America,1.08E-08,3.22E-08
+107,Industrial process furnace and oven manufacturing,USA,America,5.74E-08,8.35E-08
+108,Other general purpose machinery manufacturing,USA,America,2.28E-08,4.85E-08
+109,Fluid power process machinery,USA,America,1.62E-08,3.85E-08
+110,Electronic computer manufacturing,USA,America,1.74E-08,2.28E-08
+111,Computer storage device manufacturing,USA,America,1.23E-08,2.30E-08
+112,Computer terminals and other computer peripheral equipment manufacturing,USA,America,1.62E-08,2.99E-08
+113,Telephone apparatus manufacturing,USA,America,8.65E-09,1.59E-08
+114,Broadcast and wireless communications equipment,USA,America,4.55E-09,1.22E-08
+115,Other communications equipment manufacturing,USA,America,1.06E-08,2.19E-08
+116,Semiconductor and related device manufacturing,USA,America,7.06E-09,1.40E-08
+117,Printed circuit assembly (electronic assembly) manufacturing,USA,America,5.76E-09,1.93E-08
+118,Other electronic component manufacturing,USA,America,1.77E-08,3.18E-08
+119,Electromedical and electrotherapeutic apparatus manufacturing,USA,America,4.25E-08,5.02E-08
+120,"Search, detection, and navigation instruments manufacturing",USA,America,3.13E-09,9.08E-09
+121,Automatic environmental control manufacturing,USA,America,1.13E-07,1.28E-07
+122,Industrial process variable instruments manufacturing,USA,America,1.21E-08,2.39E-08
+123,Totalizing fluid meter and counting device manufacturing,USA,America,6.53E-09,1.28E-08
+124,Electricity and signal testing instruments manufacturing,USA,America,5.80E-09,2.07E-08
+125,Analytical laboratory instrument manufacturing,USA,America,6.60E-09,1.49E-08
+126,Irradiation apparatus manufacturing,USA,America,1.12E-08,2.38E-08
+127,"Watch, clock, and other measuring and controlling device manufacturing",USA,America,8.66E-09,1.62E-08
+128,Audio and video equipment manufacturing,USA,America,3.35E-08,5.35E-08
+129,Manufacturing and reproducing magnetic and optical media,USA,America,4.78E-08,5.83E-08
+130,Electric lamp bulb and part manufacturing,USA,America,3.81E-08,5.70E-08
+131,Lighting fixture manufacturing,USA,America,2.84E-08,5.30E-08
+132,Small electrical appliance manufacturing,USA,America,2.24E-08,4.65E-08
+133,Household cooking appliance manufacturing,USA,America,8.78E-09,3.56E-08
+134,Household refrigerator and home freezer manufacturing,USA,America,2.28E-08,4.59E-08
+135,Household laundry equipment manufacturing,USA,America,2.81E-08,5.55E-08
+136,Other major household appliance manufacturing,USA,America,1.78E-08,4.14E-08
+137,"Power, distribution, and specialty transformer manufacturing",USA,America,3.23E-08,5.51E-08
+138,Motor and generator manufacturing,USA,America,1.09E-08,3.59E-08
+139,Switchgear and switchboard apparatus manufacturing,USA,America,6.40E-09,2.85E-08
+140,Relay and industrial control manufacturing,USA,America,5.69E-09,2.70E-08
+141,Storage battery manufacturing,USA,America,1.25E-08,3.08E-08
+142,Primary battery manufacturing,USA,America,1.78E-08,3.87E-08
+143,Communication and energy wire and cable manufacturing,USA,America,8.41E-09,4.15E-08
+144,Wiring device manufacturing,USA,America,3.25E-08,5.30E-08
+145,Carbon and graphite product manufacturing,USA,America,1.07E-08,2.88E-08
+146,All other miscellaneous electrical equipment and component manufacturing,USA,America,1.17E-08,3.18E-08
+147,Automobile manufacturing,USA,America,1.46E-08,5.15E-08
+148,Light truck and utility vehicle manufacturing,USA,America,3.06E-09,4.37E-08
+149,Heavy duty truck manufacturing,USA,America,7.96E-09,4.56E-08
+150,Motor vehicle body manufacturing,USA,America,4.96E-08,8.50E-08
+151,Truck trailer manufacturing,USA,America,7.01E-08,1.07E-07
+152,Motor home manufacturing,USA,America,3.23E-08,6.53E-08
+153,Travel trailer and camper manufacturing,USA,America,7.11E-08,1.13E-07
+154,Motor vehicle gasoline engine and engine parts manufacturing,USA,America,1.56E-08,6.51E-08
+155,Motor vehicle electrical and electronic equipment manufacturing,USA,America,1.61E-08,4.78E-08
+156,Motor vehicle transmission and power train parts manufacturing,USA,America,1.15E-08,6.03E-08
+157,Motor vehicle seating and interior trim manufacturing,USA,America,1.42E-08,5.84E-08
+158,Motor vehicle metal stamping,USA,America,1.77E-08,4.42E-08
+159,Other Motor Vehicle Parts Manufacturing,USA,America,1.99E-08,5.76E-08
+160,"Motor vehicle steering, suspension component (except spring), and brake systems manufacturing",USA,America,1.89E-08,6.10E-08
+161,Aircraft manufacturing,USA,America,6.52E-09,2.14E-08
+162,Aircraft engine and engine parts manufacturing,USA,America,4.53E-09,1.68E-08
+163,Other aircraft parts and auxiliary equipment manufacturing,USA,America,1.44E-08,3.33E-08
+164,Guided missile and space vehicle manufacturing,USA,America,4.35E-09,1.89E-08
+165,Propulsion units and parts for space vehicles and guided missiles,USA,America,2.20E-08,3.43E-08
+166,Railroad rolling stock manufacturing,USA,America,5.42E-09,4.17E-08
+167,Ship building and repairing,USA,America,5.84E-08,7.94E-08
+168,Boat building,USA,America,7.37E-08,1.05E-07
+169,"Motorcycle, bicycle, and parts manufacturing",USA,America,9.01E-09,2.86E-08
+170,"Military armored vehicle, tank, and tank component manufacturing",USA,America,1.15E-08,3.39E-08
+171,All other transportation equipment manufacturing,USA,America,1.55E-08,5.00E-08
+172,Wood kitchen cabinet and countertop manufacturing,USA,America,1.13E-07,1.50E-07
+173,Upholstered household furniture manufacturing,USA,America,3.79E-08,7.89E-08
+174,Nonupholstered wood household furniture manufacturing,USA,America,4.36E-08,8.30E-08
+175,Institutional furniture manufacturing,USA,America,3.17E-08,6.24E-08
+176,Other household nonupholstered furniture,USA,America,1.81E-07,2.12E-07
+177,"Showcase, partition, shelving, and locker manufacturing",USA,America,4.57E-08,7.49E-08
+178,Office furniture and custom architectural woodwork and millwork manufacturing,USA,America,2.89E-08,6.55E-08
+179,Other furniture related product manufacturing,USA,America,1.60E-08,5.50E-08
+180,Surgical and medical instrument manufacturing,USA,America,1.29E-08,2.74E-08
+181,Surgical appliance and supplies manufacturing,USA,America,1.19E-08,2.93E-08
+182,Dental equipment and supplies manufacturing,USA,America,1.76E-08,3.19E-08
+183,Ophthalmic goods manufacturing,USA,America,1.99E-08,3.37E-08
+184,Dental laboratories,USA,America,2.42E-08,3.67E-08
+185,Jewelry and silverware manufacturing,USA,America,7.71E-09,2.54E-08
+186,Sporting and athletic goods manufacturing,USA,America,2.32E-08,5.19E-08
+187,"Doll, toy, and game manufacturing",USA,America,1.72E-08,3.55E-08
+188,Office supplies (except paper) manufacturing,USA,America,2.70E-08,4.92E-08
+189,Sign manufacturing,USA,America,3.68E-08,6.36E-08
+190,All other miscellaneous manufacturing,USA,America,3.12E-08,5.37E-08
+191,Dog and cat food manufacturing,USA,America,9.80E-09,4.15E-08
+192,Other animal food manufacturing,USA,America,7.01E-09,4.15E-08
+193,Flour milling and malt manufacturing,USA,America,1.70E-08,5.33E-08
+194,Wet corn milling,USA,America,3.65E-09,3.52E-08
+195,Fats and oils refining and blending,USA,America,7.10E-09,4.05E-08
+196,Soybean and other oilseed processing,USA,America,3.78E-09,3.38E-08
+197,Breakfast cereal manufacturing,USA,America,1.06E-08,4.06E-08
+198,Sugar and confectionery product manufacturing,USA,America,1.74E-08,5.24E-08
+199,Frozen food manufacturing,USA,America,3.37E-08,7.76E-08
+200,"Fruit and vegetable canning, pickling, and drying",USA,America,2.39E-08,6.75E-08
+201,Cheese manufacturing,USA,America,2.00E-08,1.18E-07
+202,"Dry, condensed, and evaporated dairy product manufacturing",USA,America,1.41E-08,8.80E-08
+203,Fluid milk and butter manufacturing,USA,America,2.07E-08,1.03E-07
+204,Ice cream and frozen dessert manufacturing,USA,America,1.29E-07,1.85E-07
+205,Poultry processing,USA,America,3.66E-08,8.46E-08
+206,"Animal (except poultry) slaughtering, rendering, and processing",USA,America,2.14E-08,6.16E-08
+207,Seafood product preparation and packaging,USA,America,1.04E-08,6.21E-08
+208,Bread and bakery product manufacturing,USA,America,4.25E-08,6.95E-08
+209,"Cookie, cracker, pasta, and tortilla manufacturing",USA,America,3.43E-08,6.91E-08
+210,Snack food manufacturing,USA,America,1.15E-08,4.50E-08
+211,Coffee and tea manufacturing,USA,America,7.60E-09,5.64E-08
+212,Flavoring syrup and concentrate manufacturing,USA,America,7.48E-09,3.16E-08
+213,Seasoning and dressing manufacturing,USA,America,3.00E-08,6.94E-08
+214,All other food manufacturing,USA,America,4.03E-08,8.19E-08
+215,Soft drink and ice manufacturing,USA,America,2.44E-08,5.62E-08
+216,Breweries,USA,America,3.84E-08,6.21E-08
+217,Wineries,USA,America,2.39E-08,5.51E-08
+218,Distilleries,USA,America,6.00E-09,2.72E-08
+219,Tobacco product manufacturing,USA,America,2.01E-09,1.34E-08
+220,"Fiber, yarn, and thread mills",USA,America,2.04E-08,5.38E-08
+221,Fabric mills,USA,America,5.17E-08,7.85E-08
+222,Textile and fabric finishing and fabric coating mills,USA,America,2.02E-08,5.34E-08
+223,Carpet and rug mills,USA,America,6.98E-09,3.85E-08
+224,Curtain and linen mills,USA,America,2.90E-08,6.24E-08
+225,Other textile product mills,USA,America,3.48E-08,6.28E-08
+226,Apparel manufacturing,USA,America,4.74E-08,6.70E-08
+227,Leather and allied product manufacturing,USA,America,5.73E-08,8.72E-08
+228,Pulp mills,USA,America,9.46E-09,4.82E-08
+229,Paper mills,USA,America,7.82E-09,3.85E-08
+230,Paperboard mills,USA,America,4.08E-09,3.73E-08
+231,Paperboard container manufacturing,USA,America,1.98E-08,4.99E-08
+232,Paper Bag and Coated and Treated Paper Manufacturing,USA,America,1.99E-08,4.86E-08
+233,Stationery product manufacturing,USA,America,2.08E-08,4.89E-08
+234,Sanitary paper product manufacturing,USA,America,1.47E-08,4.56E-08
+235,All other converted paper product manufacturing,USA,America,2.88E-08,5.69E-08
+236,Printing,USA,America,2.14E-08,4.24E-08
+237,Support activities for printing,USA,America,3.10E-08,4.80E-08
+238,Petroleum refineries,USA,America,6.86E-10,1.26E-08
+239,Asphalt paving mixture and block manufacturing,USA,America,3.01E-09,2.07E-08
+240,Asphalt shingle and coating materials manufacturing,USA,America,6.39E-09,2.15E-08
+241,Other petroleum and coal products manufacturing,USA,America,4.29E-09,1.92E-08
+242,Petrochemical manufacturing,USA,America,1.52E-09,1.54E-08
+243,Industrial gas manufacturing,USA,America,9.21E-09,2.52E-08
+244,Synthetic dye and pigment manufacturing,USA,America,2.65E-08,4.39E-08
+245,Other Basic Inorganic Chemical Manufacturing,USA,America,7.08E-09,2.49E-08
+246,Other basic organic chemical manufacturing,USA,America,5.06E-09,2.82E-08
+247,Plastics material and resin manufacturing,USA,America,8.51E-09,2.96E-08
+248,Synthetic rubber and artificial and synthetic fibers and filaments manufacturing,USA,America,8.26E-09,3.02E-08
+249,Medicinal and botanical manufacturing,USA,America,9.17E-09,1.96E-08
+250,Pharmaceutical preparation manufacturing,USA,America,5.09E-09,1.41E-08
+251,In-vitro diagnostic substance manufacturing,USA,America,7.01E-09,1.64E-08
+252,Biological product (except diagnostic) manufacturing,USA,America,7.82E-09,1.37E-08
+253,Fertilizer manufacturing,USA,America,1.12E-08,3.22E-08
+254,Pesticide and other agricultural chemical manufacturing,USA,America,3.56E-09,2.49E-08
+255,Paint and coating manufacturing,USA,America,2.90E-08,5.31E-08
+256,Adhesive manufacturing,USA,America,3.02E-08,5.22E-08
+257,Soap and cleaning compound manufacturing,USA,America,1.55E-08,3.69E-08
+258,Toilet preparation manufacturing,USA,America,1.18E-08,3.03E-08
+259,Printing ink manufacturing,USA,America,7.90E-09,3.52E-08
+260,All other chemical product and preparation manufacturing,USA,America,2.05E-08,4.24E-08
+261,Plastics packaging materials and unlaminated film and sheet manufacturing,USA,America,2.09E-08,4.59E-08
+262,"Plastics pipe, pipe fitting, and unlaminated profile shape manufacturing",USA,America,4.16E-08,6.34E-08
+263,"Laminated plastics plate, sheet (except packaging), and shape manufacturing",USA,America,2.04E-08,4.37E-08
+264,Polystyrene foam product manufacturing,USA,America,3.10E-08,5.60E-08
+265,Urethane and other foam product (except polystyrene) manufacturing,USA,America,3.27E-08,5.82E-08
+266,Plastics bottle manufacturing,USA,America,1.40E-08,3.91E-08
+267,Other plastics product manufacturing,USA,America,2.70E-08,5.38E-08
+268,Tire manufacturing,USA,America,4.17E-08,7.36E-08
+269,Rubber and plastics hoses and belting manufacturing,USA,America,2.51E-08,5.43E-08
+270,Other rubber product manufacturing,USA,America,3.20E-08,6.19E-08
+271,Motor vehicle and motor vehicle parts and supplies,USA,America,1.62E-08,3.21E-08
+272,Professional and commercial equipment and supplies,USA,America,1.87E-08,3.03E-08
+273,Household appliances and electrical and electronic goods ,USA,America,8.88E-09,2.33E-08
+274,"Machinery, equipment, and supplies",USA,America,1.61E-08,3.01E-08
+275,Other durable goods merchant wholesalers,USA,America,3.45E-08,5.02E-08
+276,Drugs and druggists¡¯ sundries,USA,America,3.04E-09,1.68E-08
+277,Grocery and related product wholesalers ,USA,America,2.72E-08,4.45E-08
+278,Petroleum and petroleum products,USA,America,5.37E-09,1.21E-08
+279,Other nondurable goods merchant wholesalers,USA,America,2.69E-08,4.18E-08
+280,Wholesale electronic markets and agents and brokers,USA,America,1.33E-08,1.84E-08
+281,Customs duties,USA,America,0,0
+282,Motor vehicle and parts dealers,USA,America,7.33E-08,8.56E-08
+283,Food and beverage stores,USA,America,1.06E-07,1.23E-07
+284,General merchandise stores,USA,America,5.27E-08,6.87E-08
+285,Building material and garden equipment and supplies dealers,USA,America,6.16E-08,7.30E-08
+286,Health and personal care stores,USA,America,4.88E-08,6.04E-08
+287,Gasoline stations,USA,America,9.35E-08,1.15E-07
+288,Clothing and clothing accessories stores,USA,America,3.25E-08,4.85E-08
+289,Nonstore retailers,USA,America,2.36E-08,3.51E-08
+290,All other retail,USA,America,3.85E-08,5.22E-08
+291,Air transportation,USA,America,3.55E-08,5.55E-08
+292,Rail transportation,USA,America,1.06E-08,2.71E-08
+293,Water transportation,USA,America,5.63E-08,8.14E-08
+294,Truck transportation,USA,America,2.84E-08,4.80E-08
+295,Transit and ground passenger transportation,USA,America,6.79E-08,8.19E-08
+296,Pipeline transportation,USA,America,3.94E-08,5.10E-08
+297,Scenic and sightseeing transportation and support activities for transportation,USA,America,5.81E-08,8.46E-08
+298,Couriers and messengers,USA,America,1.08E-08,2.99E-08
+299,Warehousing and storage,USA,America,1.05E-07,1.32E-07
+300,Newspaper publishers,USA,America,4.54E-08,5.87E-08
+301,Periodical Publishers,USA,America,2.95E-08,4.22E-08
+302,Book publishers,USA,America,9.76E-09,2.44E-08
+303,"Directory, mailing list, and other publishers",USA,America,4.98E-08,6.51E-08
+304,Software publishers,USA,America,7.11E-09,1.38E-08
+305,Motion picture and video industries,USA,America,1.71E-08,2.92E-08
+306,Sound recording industries,USA,America,1.00E-07,1.10E-07
+307,Radio and television broadcasting,USA,America,1.92E-08,3.54E-08
+308,Cable and other subscription programming,USA,America,4.54E-08,6.15E-08
+309,Wired telecommunications carriers,USA,America,2.24E-09,1.41E-08
+310,Wireless telecommunications carriers (except satellite),USA,America,2.28E-09,1.69E-08
+311,"Satellite, telecommunications resellers, and all other telecommunications",USA,America,2.49E-08,3.79E-08
+312,"Data processing, hosting, and related services",USA,America,3.76E-09,2.16E-08
+313,Internet publishing and broadcasting and Web search portals,USA,America,1.55E-08,3.07E-08
+314,"News syndicates, libraries, archives and all other information services",USA,America,8.47E-08,9.35E-08
+315,Nondepository credit intermediation and related activities,USA,America,4.07E-09,1.30E-08
+316,Monetary authorities and depository credit intermediation,USA,America,7.49E-09,1.55E-08
+317,Other financial investment activities,USA,America,7.61E-10,1.32E-08
+318,Securities and commodity contracts intermediation and brokerage,USA,America,1.52E-09,1.01E-08
+319,Direct life insurance carriers,USA,America,6.97E-10,4.82E-09
+320,"Insurance carriers, except direct life",USA,America,6.06E-10,6.98E-09
+321,"Insurance agencies, brokerages, and related activities",USA,America,2.53E-09,9.09E-09
+322,"Funds, trusts, and other financial vehicles",USA,America,2.10E-09,1.59E-08
+323,Owner-occupied housing,USA,America,2.56E-12,5.32E-09
+324,Tenant-occupied housing,USA,America,3.38E-09,4.72E-09
+325,Other real estate,USA,America,1.87E-09,2.62E-08
+326,Automotive equipment rental and leasing,USA,America,8.44E-09,2.13E-08
+327,Commercial and industrial machinery and equipment rental and leasing,USA,America,1.60E-08,3.12E-08
+328,General and consumer goods rental,USA,America,4.90E-08,6.19E-08
+329,Lessors of nonfinancial intangible assets,USA,America,1.77E-09,1.22E-08
+330,Legal services,USA,America,1.99E-09,1.10E-08
+331,Custom computer programming services,USA,America,3.31E-09,1.20E-08
+332,Computer systems design services,USA,America,4.65E-09,1.38E-08
+333,"Other computer related services, including facilities management",USA,America,4.45E-09,1.59E-08
+334,"Accounting, tax preparation, bookkeeping, and payroll services",USA,America,5.14E-09,1.25E-08
+335,"Architectural, engineering, and related services",USA,America,8.48E-09,2.09E-08
+336,Management consulting services,USA,America,3.93E-09,1.55E-08
+337,Environmental and other technical consulting services,USA,America,8.21E-09,1.78E-08
+338,Scientific research and development services,USA,America,1.04E-09,1.42E-08
+339,"Advertising, public relations, and related services",USA,America,3.78E-09,1.87E-08
+340,Specialized design services,USA,America,2.30E-08,3.16E-08
+341,Photographic services,USA,America,2.69E-08,3.95E-08
+342,Veterinary services,USA,America,1.11E-07,1.21E-07
+343,"All other miscellaneous professional, scientific, and technical services ",USA,America,7.14E-09,1.68E-08
+344,Management of companies and enterprises,USA,America,4.95E-09,1.37E-08
+345,Employment services,USA,America,6.64E-09,1.36E-08
+346,Services to buildings and dwellings,USA,America,1.19E-07,1.34E-07
+347,Office administrative services,USA,America,3.89E-09,1.67E-08
+348,Facilities support services,USA,America,6.55E-09,2.45E-08
+349,Business support services,USA,America,2.24E-08,3.68E-08
+350,Travel arrangement and reservation services,USA,America,2.04E-08,3.68E-08
+351,Investigation and security services,USA,America,5.80E-08,6.96E-08
+352,Other support services,USA,America,1.71E-08,3.51E-08
+353,Solid waste collection,USA,America,1.98E-10,1.65E-08
+354,Hazardous waste collection treatment and disposal,USA,America,3.08E-10,2.22E-08
+355,Solid waste landflling,USA,America,2.13E-10,1.72E-08
+356,Solid waste combustors and incinerators,USA,America,1.29E-10,1.13E-08
+357,Remediation services,USA,America,2.64E-10,1.70E-08
+358,Material separation/recovery facilities,USA,America,1.63E-10,1.24E-08
+359,Other waste collection and treatment services,USA,America,1.86E-10,1.21E-08
+360,Elementary and secondary schools,USA,America,1.04E-08,2.02E-08
+361,"Junior colleges, colleges, universities, and professional schools",USA,America,1.93E-08,2.87E-08
+362,Other educational services,USA,America,9.94E-08,1.15E-07
+363,Offices of physicians,USA,America,1.71E-08,2.93E-08
+364,Offices of dentists,USA,America,1.77E-08,2.83E-08
+365,Offices of other health practitioners,USA,America,1.31E-07,1.40E-07
+366,Outpatient care centers,USA,America,1.09E-07,1.28E-07
+367,Medical and diagnostic laboratories,USA,America,7.20E-08,8.04E-08
+368,Home health care services,USA,America,2.16E-08,3.19E-08
+369,Other ambulatory health care services,USA,America,2.53E-07,2.65E-07
+370,Hospitals,USA,America,7.26E-09,2.49E-08
+371,Nursing and community care facilities,USA,America,3.40E-08,4.99E-08
+372,"Residential mental health, substance abuse, and other residential care facilities",USA,America,1.37E-07,1.51E-07
+373,Individual and family services,USA,America,1.62E-07,1.77E-07
+374,Child day care services,USA,America,4.16E-08,5.69E-08
+375,"Community food, housing, and other relief services, including rehabilitation services",USA,America,2.17E-07,2.45E-07
+376,Performing arts companies,USA,America,3.08E-08,4.32E-08
+377,Spectator sports,USA,America,2.77E-08,4.11E-08
+378,"Independent artists, writers, and performers",USA,America,7.67E-09,1.28E-08
+379,Promoters of performing arts and sports and agents for public figures,USA,America,4.15E-08,5.66E-08
+380,"Museums, historical sites, zoos, and parks",USA,America,6.14E-08,7.46E-08
+381,Amusement parks and arcades,USA,America,1.62E-07,1.76E-07
+382,Gambling industries (except casino hotels),USA,America,7.59E-09,2.50E-08
+383,Other amusement and recreation industries,USA,America,1.24E-07,1.41E-07
+384,Accommodation,USA,America,9.84E-08,1.12E-07
+385,Full-service restaurants,USA,America,1.55E-07,1.70E-07
+386,Limited-service restaurants,USA,America,1.36E-07,1.57E-07
+387,All other food and drinking places,USA,America,8.10E-08,9.38E-08
+388,Automotive repair and maintenance,USA,America,1.61E-08,3.20E-08
+389,Electronic and precision equipment repair and maintenance,USA,America,2.79E-08,3.88E-08
+390,Commercial and industrial machinery and equipment repair and maintenance,USA,America,6.00E-09,2.02E-08
+391,Personal and household goods repair and maintenance,USA,America,5.06E-08,6.07E-08
+392,Personal care services,USA,America,2.47E-08,3.48E-08
+393,Death care services,USA,America,3.42E-08,3.89E-08
+394,Dry-cleaning and laundry services,USA,America,1.16E-07,1.33E-07
+395,Other personal services,USA,America,2.90E-08,4.12E-08
+396,Religious organizations,USA,America,4.13E-09,2.82E-08
+397,"Grantmaking, giving, and social advocacy organizations",USA,America,4.48E-08,5.68E-08
+398,"Civic, social, professional, and similar organizations",USA,America,3.25E-08,4.79E-08
+399,Private households,USA,America,1.89E-08,1.89E-08
+400,Federal general government (defense),USA,America,1.79E-10,1.08E-08
+401,Federal general government (nondefense),USA,America,2.43E-10,7.22E-09
+402,Postal service,USA,America,6.35E-09,2.37E-08
+403,Other federal government enterprises,USA,America,3.35E-08,5.42E-08
+404,Other state and local government enterprises,USA,America,4.21E-08,6.67E-08
