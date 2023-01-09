@@ -48,6 +48,11 @@ where $CF_{total}$ represents the total CF for occupational health across all US
 |     Leontief inverse matrix         |     represent the total production of different industries required to produce one dollar of that type of good                                      |  $\boldsymbol{(I-A)^{-1}}$ | US Environmentally-Extended Input-Output Models (USEEIO v2.0)        | [USEEIOv2.0](USEEIOv2.0.xlsx)     |
 |     Final demand vector             |     represent each good in the manufacturing stage in $ per good                                                                                    |         $\widehat{y}$      | US Environmentally-Extended Input-Output Models (USEEIO v2.0)        | [case study](case-study.xlsx)     |
 
-## Results
+## Acknowlegments
 
-In this package, we provided the following datasets.
+This work was supported by, Global Life Cycle Impact Assessment Method (GLAM) group under the UN Environment Life Cycle Initiative.
+<img align="right" src="doc/tfpredict_logo.png" title="Life Cycle Initiative"/>
+
+## Contact
+
+In case of any questions, please contact <a href="mailto:shaobin@illinois.edu">Shaobin Li</a>.
