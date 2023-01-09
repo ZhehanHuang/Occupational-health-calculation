@@ -14,7 +14,7 @@ This package provides an easy way to calculate the occupational health impact of
 
 * **[Allocation_age_2016-2017.py](/main/Allocation_age_2016-2017.py) and [Allocation_age_2018.py](/main/Allocation_age_2018.py) are to redistribute the original age group of BLS to the WHO equivalent age group.** We assume that each age grouping is uniform distributed and therefore use averaging to redistribute age groups. Age data for 2014 to 2015 are missing and we used the average of the age distribution from 2016 to 2018 combined with the number of employed in that year for the estimation. 
 
-* **[Calculation_2014-2018_YLD_&_DALY.py](/main/Calculation_2014-2018_YLD_&_DALY.py) is the main part to calculate the characterization factors for occupational health impacts.** Methodology and data source will be mentioned later in the [Methodology and Data source](#Methodology-and-Data-source) section.
+* **[Calculation_2014-2018_YLD_&_DALY.py](/main/Calculation_2014-2018_YLD_&_DALY.py) is the main part to calculate the characterization factors for occupational health impacts.** Methodology and data source will be mentioned later in the [Methodology and Data source](#Methodology&#32;and&#32;Data&#32;source) section.
 
 This package also provides a way to use **Structural Path Analysis (SPA)** to find out the contribution of each industries to a specific industry sector or a good. [SPA](SPA) file contains original data and codes for SPA.
 
