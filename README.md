@@ -2,7 +2,7 @@
 
 **System approach for characterizing and evaluating factors for occupational health impacts due to nonfatal injuries and illnesses for the use in life cycle assessment**
 
-*Authors:* [Zhehan Huang](https://github.com/ZhehanHuang/)＊, [Shaobin Li](https://github.com/)＊
+*Authors:* Zhehan Huang, Gaël Kijko, Kelly Scanlon, Shannon Lloyd, Andrew Henderson, Peter Fantke, Olivier Jolliet, Shaobin Li
 
 _________________________________________________________________________________________________
 
@@ -14,7 +14,7 @@ This package provides an easy way to calculate the occupational health impact of
 
 * **[Allocation_age_2016-2017.py](Allocation_age_2016-2017.py) and [Allocation_age_2018.py](Allocation_age_2018.py) are to redistribute the original age group of BLS to the WHO equivalent age group.** We assume that each age grouping is uniform distributed and therefore use averaging to redistribute age groups. Age data for 2014 to 2015 are missing and we used the average of the age distribution from 2016 to 2018 combined with the number of employed in that year for the estimation. 
 
-* **[Calculation_2014-2018_YLD_&_DALY.py](Calculation_2014-2018_YLD_&_DALY.py) is the main part to calculate the characterization factors for occupational health impacts.** Methodology and data source will be mentioned later in the [Methodology and Data source](Methodology-and-Data-source) section.
+* **[Calculation_2014-2018_YLD_&_DALY.py](Calculation_2014-2018_YLD_&_DALY.py) is the main part to calculate the characterization factors for occupational health impacts.** Methodology and data source will be mentioned later in the [Methodology and Data source](#Methodology-and-Data-source) section.
 
 This package also provides a way to use **Structural Path Analysis (SPA)** to find out the contribution of each industries to a specific industry sector or a good. [SPA](SPA) file contains original data and codes for SPA.
 
@@ -36,23 +36,24 @@ where $CF_{total}$ represents the total CF for occupational health across all US
 
 | Variable Name                       | Description                                                                                                                                         | Symbol                     | Source                                                               | File                              |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------:|----------------------------------------------------------------------|-----------------------------------|
-|     Severity                        |     the severity of short-term (ST) or lifelong (LL) injuries and illness indicated by each of the natural codes (c)                                |    $W_{c,LL}$, $W_{c,ST}$  |Report from James et al.<br/>Global Burden of Disease report 2013 & 2017| [support_data](support_data.xlsx) |
-|     Cases                           |     different occupational injuries and illnesses (c) in each age group (a) for short-term (ST) or lifetime (LL) nonfatal injuries and illnesses    |  $I_{c,a,ST}$, $I_{c,a,LL}$| U.S. Bureau of Labor Statistics (2014-2018)                          | [original_data](original_data)    |
-|     Short-term duration             |     duration of each short-term (ST) injury or illness (c) in each age group (a)                                                                    |        $D_{c,a,ST}$        | Global Burden of Disease report 1996 & 2013                          | [support_data](support_data.xlsx) |
-|     Lifelong duration               |     duration of lifelong (LL) injuries and illnesses (c) in each age group (a)                                                                      |        $D_{c,a,LL}$        | Global Burden of Disease report 1996 & 2013                          | [support_data](support_data.xlsx) |
-|     Short-long split coefficient    |     Split injuries into lifelong and short-term                                                                                                     |      $f_{LL}$, $f_{ST}$    | Global Burden of Disease report 1996 & 2013                          | [support_data](support_data.xlsx) |
-|     Conversion matrix               |     turn NAICS code into EIO code                                                                                                                   | $\boldsymbol{CONV_{norm}}$ | US Environmentally-Extended Input-Output Models (USEEIO v2.0)        | [CONV](CONV)                      |
-|     Total output of industries      |     inverse diagonal matrix of the total output of the different industries                                                                         |        $\widehat{g}$       | US Environmentally-Extended Input-Output Models (USEEIO v2.0)        | [USEEIOv2.0](USEEIOv2.0.xlsx)     |
-|     Make matrix                     |     IO industries as rows and IO goods as columns                                                                                                   |      $\boldsymbol{V}$      | US Environmentally-Extended Input-Output Models (USEEIO v2.0)        | [USEEIOv2.0](USEEIOv2.0.xlsx)     |
-|     Total output of commodities     |     inverse diagonal matrix based on the total output of commodities in different industries                                                        |        $\widehat{q}$       | US Environmentally-Extended Input-Output Models (USEEIO v2.0)        | [USEEIOv2.0](USEEIOv2.0.xlsx)     |
-|     Leontief inverse matrix         |     represent the total production of different industries required to produce one dollar of that type of good                                      |  $\boldsymbol{(I-A)^{-1}}$ | US Environmentally-Extended Input-Output Models (USEEIO v2.0)        | [USEEIOv2.0](USEEIOv2.0.xlsx)     |
-|     Final demand vector             |     represent each good in the manufacturing stage in $ per good                                                                                    |         $\widehat{y}$      | US Environmentally-Extended Input-Output Models (USEEIO v2.0)        | [case study](case-study.xlsx)     |
+|     Severity                        |     the severity of short-term (ST) or lifelong (LL) injuries and illness indicated by each of the natural codes (c)                                |    $W_{c,LL}$, $W_{c,ST}$  |Report from James et al.<br/>Global Burden of Disease report 2013 & 2017| [support_data](/data/support_data/support_data.xlsx) |
+|     Cases                           |     different occupational injuries and illnesses (c) in each age group (a) for short-term (ST) or lifetime (LL) nonfatal injuries and illnesses    |  $I_{c,a,ST}$, $I_{c,a,LL}$| U.S. Bureau of Labor Statistics (2014-2018)                          | [original_data](/data/original_data/original_data)    |
+|     Short-term duration             |     duration of each short-term (ST) injury or illness (c) in each age group (a)                                                                    |        $D_{c,a,ST}$        | Global Burden of Disease report 1996 & 2013                          | [support_data](/data/support_data/support_data.xlsx) |
+|     Lifelong duration               |     duration of lifelong (LL) injuries and illnesses (c) in each age group (a)                                                                      |        $D_{c,a,LL}$        | Global Burden of Disease report 1996 & 2013                          | [support_data](/data/support_data/support_data.xlsx) |
+|     Short-long split coefficient    |     Split injuries into lifelong and short-term                                                                                                     |      $f_{LL}$, $f_{ST}$    | Global Burden of Disease report 1996 & 2013                          | [support_data](/data/support_data/support_data.xlsx) |
+|     Conversion matrix               |     turn NAICS code into EIO code                                                                                                                   | $\boldsymbol{CONV_{norm}}$ | US Environmentally-Extended Input-Output Models (USEEIO v2.0)        | [CONV](/data/support_data/CONV)                      |
+|     Total output of industries      |     inverse diagonal matrix of the total output of the different industries                                                                         |        $\widehat{g}$       | US Environmentally-Extended Input-Output Models (USEEIO v2.0)        | [USEEIOv2.0](/data/original_data/USEEIOv2.0.xlsx)     |
+|     Make matrix                     |     IO industries as rows and IO goods as columns                                                                                                   |      $\boldsymbol{V}$      | US Environmentally-Extended Input-Output Models (USEEIO v2.0)        | [USEEIOv2.0](/data/original_data/USEEIOv2.0.xlsx)     |
+|     Total output of commodities     |     inverse diagonal matrix based on the total output of commodities in different industries                                                        |        $\widehat{q}$       | US Environmentally-Extended Input-Output Models (USEEIO v2.0)        | [USEEIOv2.0](/data/original_data/USEEIOv2.0.xlsx)     |
+|     Leontief inverse matrix         |     represent the total production of different industries required to produce one dollar of that type of good                                      |  $\boldsymbol{(I-A)^{-1}}$ | US Environmentally-Extended Input-Output Models (USEEIO v2.0)        | [USEEIOv2.0](/data/original_data/USEEIOv2.0.xlsx)     |
+|     Final demand vector             |     represent each good in the manufacturing stage in $ per good                                                                                    |         $\widehat{y}$      | US Environmentally-Extended Input-Output Models (USEEIO v2.0)        | [case study](/data/original_data/case-study.xlsx)     |
 
 ## Acknowlegments
 
 This work was supported by, Global Life Cycle Impact Assessment Method (GLAM) group under the UN Environment Life Cycle Initiative.
-<img align="right" src="doc/tfpredict_logo.png" title="Life Cycle Initiative"/>
+<img align="right" src="/pics/LCI.png" title="Life Cycle Initiative" height="150"/>
+<img align="right" src="/pics/UNEP.png" title="UNEP" width="200" height="150"/>
 
 ## Contact
 
-In case of any questions, please contact <a href="mailto:shaobin@illinois.edu">Shaobin Li</a>.
+In case of any questions, please contact <a href="mailto:shaobin@xmu.edu.cn">Shaobin Li</a> (shaobin@xmu.edu.cn).
