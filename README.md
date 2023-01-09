@@ -49,3 +49,5 @@ where $CF_{total}$ represents the total CF for occupational health across all US
 |     Final demand vector             |     represent each good in the manufacturing stage in $ per good                                                                                    |         $\widehat{y}$      | US Environmentally-Extended Input-Output Models (USEEIO v2.0)        | [case study](case-study.xlsx)     |
 
 ## Results
+
+In this package, we provided the following datasets.
