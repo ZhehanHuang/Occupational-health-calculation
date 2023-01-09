@@ -1,12 +1,12 @@
 # Characterizing Occupatioanl Health Impacts
-=========
+============================================
 
 **System approach for characterizing and evaluating factors for occupational health impacts due to nonfatal injuries and illnesses for the use in life cycle assessment
 **
 
 *Authors:* [Zhehan Huang](https://github.com/ZhehanHuang/)＊, [Shaobin Li](https://github.com/)＊
 
-___________________________________________________________________________________________________________
+_________________________________________________________________________________________________
 
 Introduction
 ------------
