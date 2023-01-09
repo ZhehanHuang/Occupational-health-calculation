@@ -1,5 +1,15 @@
-# Occupational health calculation
-System approach for characterizing and evaluating factors for occupational health impacts due to nonfatal injuries and illnesses for the use in life cycle assessment
+# Characterizing Occupatioanl Health Impacts
+=========
+
+**System approach for characterizing and evaluating factors for occupational health impacts due to nonfatal injuries and illnesses for the use in life cycle assessment
+**
+
+*Authors:* [Zhehan Huang](https://github.com/ZhehanHuang/)＊, [Shaobin Li](https://github.com/)＊
+
+___________________________________________________________________________________________________________
+
+Introduction
+------------
 
 This package contains three main part to calculate the characterization factors for occupational health impacts easily:
 
