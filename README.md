@@ -56,4 +56,4 @@ This work was supported by, Global Life Cycle Impact Assessment Method (GLAM) gr
 
 ## Contact
 
-In case of any questions, please contact <a href="mailto:shaobin@xmu.edu.cn">Shaobin Li</a> (shaobin@xmu.edu.cn).
+In case of any questions, please contact <a href="mailto:shaobinli@xmu.edu.cn">Shaobin Li</a> (shaobinli@xmu.edu.cn).
