@@ -51,7 +51,8 @@ where $CF_{total}$ represents the total CF for occupational health across all US
 ## Acknowlegments
 
 This work was supported by, Global Life Cycle Impact Assessment Method (GLAM) group under the UN Environment Life Cycle Initiative.
-<img align="right" src="doc/tfpredict_logo.png" title="Life Cycle Initiative"/>
+<img align="right" src="LCI.png" title="Life Cycle Initiative" height="150"/>
+<img align="right" src="UNEP.png" title="UNEP" width="200" height="150"/>
 
 ## Contact
 
