@@ -16,7 +16,7 @@ This package provides an easy way to calculate the occupational health impact of
 
 * **[Calculation_2014-2018_YLD_&_DALY.py](/main/Calculation_2014-2018_YLD_&_DALY.py) is the main part to calculate the characterization factors for occupational health impacts.** Methodology and data source will be mentioned later in the [Methodology and Data source](#Methodology&#32;and&#32;Data&#32;source) section.
 
-This package also provides a way to use **Structural Path Analysis (SPA)** to find out the contribution of each industries to a specific industry sector or a good. [SPA](SPA) file contains original data and codes for SPA. To consider uncertainty in the duration and severity of each injury or illness, this package provides a way to do **uncertainty analysis**.
+This package also provides a way to use **Structural Path Analysis (SPA)** to find out the contribution of each industries to a specific industry sector or a good. [SPA](SPA) file contains original data and codes for SPA. To consider uncertainty in the duration and severity of each injury or illness, this package provides a way to do [uncertainty analysis](uncertainty).
 
 ## Methodology and Data source
 
