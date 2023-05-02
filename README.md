@@ -23,10 +23,10 @@ This package also provides a way to use **Structural Path Analysis (SPA)** to fi
 ### Methodology
 
 We used the following equations to calculate occupational health impacts.
-$$YLD_n= YLD_{n,LL}× f_{LL}+YLD_{n,ST}×f_{ST}$$
-$$YLD_{n,ST}=\sum_{c=1}^{13} \sum_{a=1}^{3}I_{c,a,ST} ×W_{c,ST}×D_{c,a,ST}$$
-$$YLD_{n,LL}=\sum_{c=1}^{13} \sum_{a=1}^{3}I_{c,a,LL} ×W_{c,ST}×D_{c,a,LL}$$
-where $f_{LL}$ and $f_{ST}$ represent the lifelong and short-term split for an injury or illness, respectively. $I_{c,a,ST}$ represents different occupational injuries and illnesses (c) in each age group (a) for short-term (ST) non-fatal injuries and illnesses. $W_{c,ST}$ is the proportion of short-term disabilities indicated by each of the nature codes (c). $D_{c,a,ST}$ indicates the duration of each short-term injury or illness (c) in each age group (a). And the definitions are similar to $I_{c,a,LL}$, $W_{c,LL}$ and $D_{c,a,LL}$.
+$$YLD_n= \sum_{c=1}^{13} (YLD_{c,n,LL}+YLD_{c,n,ST})$$
+$$YLD_{c,n,ST}=\sum_{a=1}^{3}I_{c,a,ST} ×f_{c,ST} ×W_{c,ST}×D_{c,a,ST}$$
+$$YLD_{c,n,LL}=\sum_{a=1}^{3}I_{c,a,LL} ×f_{c,LL} ×W_{c,ST}×D_{c,a,LL}$$
+where $f_{c,ST}$ and $f_{c,LL}$ represent the fraction of cases that result in short-term or lifelong health outcomes. $I_{c,a,ST}$ represents different occupational injuries and illnesses (c) in each age group (a) for short-term (ST) non-fatal injuries and illnesses. $W_{c,ST}$ is the proportion of short-term disabilities indicated by each of the nature codes (c). $D_{c,a,ST}$ indicates the duration of each short-term injury or illness (c) in each age group (a). And the definitions are similar to $I_{c,a,LL}$, $W_{c,LL}$ and $D_{c,a,LL}$.
 
 To further calculate characterization factors, we used the following equation.
 $$CF_{total}= \overrightarrow{yld} \ \boldsymbol{CONV_{norm}} \ \widehat{g^{-1}} \ \boldsymbol{V} \ \widehat{q^{-1}} \ \boldsymbol{(I-A)^{-1}} \ \overrightarrow{y} $$
@@ -48,9 +48,13 @@ where $CF_{total}$ represents the total CF for occupational health across all US
 |     Leontief inverse matrix         |     represent the total production of different industries required to produce one dollar of that type of good                                      |  $\boldsymbol{(I-A)^{-1}}$ | US Environmentally-Extended Input-Output Models (USEEIO v2.0)        | [USEEIOv2.0](/data/original_data/USEEIOv2.0.xlsx)     |
 |     Final demand vector             |     represent each good in the manufacturing stage in $ per good                                                                                    |      $\overrightarrow{y}$  | US Environmentally-Extended Input-Output Models (USEEIO v2.0)        | [case study](/data/original_data/case&#32;study.xlsx)     |
 
+### Uncertainty Analysis
+
+
+
 ## Acknowlegments
 
-Shaobin Li and Zhehan Huang received the support from the National Natural Science Foundation of China (72348004). Peter Fantke was supported by the “Safe and Efficient Chemistry by Design Safechem)” project funded by the Swedish Foundation for Strategic Environmental Research (grant no. DIA 2018/11). This work was also supported by Global Life Cycle Impact Assessment Method (GLAM) group under the UN Environment Life Cycle Initiative. We appreciate Wesley W. Ingwersen for the help in applying the USEEIO model with NAICS data.
+Shaobin Li and Zhehan Huang received the support from the National Natural Science Foundation of China (72348004). Peter Fantke was supported by the “Safe and Efficient Chemistry by Design Safechem” project funded by the Swedish Foundation for Strategic Environmental Research (grant no. DIA 2018/11). This work was also supported by Global Life Cycle Impact Assessment Method (GLAM) group under the UN Environment Life Cycle Initiative. We appreciate Wesley W. Ingwersen for the help in applying the USEEIO model with NAICS data.
 <img align="right" src="/pics/LCI.png" title="Life Cycle Initiative" height="150"/>
 <img align="right" src="/pics/UNEP.png" title="UNEP" width="200" height="150"/>
 
