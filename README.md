@@ -50,7 +50,7 @@ where $CF_{total}$ represents the total CF for occupational health across all US
 
 ## Acknowlegments
 
-This work was supported by, Global Life Cycle Impact Assessment Method (GLAM) group under the UN Environment Life Cycle Initiative.
+Shaobin Li and Zhehan Huang received the support from the National Natural Science Foundation of China (72348004). Peter Fantke was supported by the “Safe and Efficient Chemistry by Design Safechem)” project funded by the Swedish Foundation for Strategic Environmental Research (grant no. DIA 2018/11). This work was also supported by Global Life Cycle Impact Assessment Method (GLAM) group under the UN Environment Life Cycle Initiative. We appreciate Wesley W. Ingwersen for the help in applying the USEEIO model with NAICS data.
 <img align="right" src="/pics/LCI.png" title="Life Cycle Initiative" height="150"/>
 <img align="right" src="/pics/UNEP.png" title="UNEP" width="200" height="150"/>
 
