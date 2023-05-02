@@ -16,7 +16,7 @@ This package provides an easy way to calculate the occupational health impact of
 
 * **[Calculation_2014-2018_YLD_&_DALY.py](/main/Calculation_2014-2018_YLD_&_DALY.py) is the main part to calculate the characterization factors for occupational health impacts.** Methodology and data source will be mentioned later in the [Methodology and Data source](#Methodology&#32;and&#32;Data&#32;source) section.
 
-This package also provides a way to use **Structural Path Analysis (SPA)** to find out the contribution of each industries to a specific industry sector or a good. [SPA](SPA) file contains original data and codes for SPA.
+This package also provides a way to use **Structural Path Analysis (SPA)** to find out the contribution of each industries to a specific industry sector or a good. [SPA](SPA) file contains original data and codes for SPA. To consider uncertainty in the duration and severity of each injury or illness, this package provides a way to do **uncertainty analysis**.
 
 ## Methodology and Data source
 
@@ -47,10 +47,6 @@ where $CF_{total}$ represents the total CF for occupational health across all US
 |     Total output of commodities     |     inverse diagonal matrix based on the total output of commodities in different industries                                                        |        $\widehat{q}$       | US Environmentally-Extended Input-Output Models (USEEIO v2.0)        | [USEEIOv2.0](/data/original_data/USEEIOv2.0.xlsx)     |
 |     Leontief inverse matrix         |     represent the total production of different industries required to produce one dollar of that type of good                                      |  $\boldsymbol{(I-A)^{-1}}$ | US Environmentally-Extended Input-Output Models (USEEIO v2.0)        | [USEEIOv2.0](/data/original_data/USEEIOv2.0.xlsx)     |
 |     Final demand vector             |     represent each good in the manufacturing stage in $ per good                                                                                    |      $\overrightarrow{y}$  | US Environmentally-Extended Input-Output Models (USEEIO v2.0)        | [case study](/data/original_data/case&#32;study.xlsx)     |
-
-### Uncertainty Analysis
-
-
 
 ## Acknowlegments
 
