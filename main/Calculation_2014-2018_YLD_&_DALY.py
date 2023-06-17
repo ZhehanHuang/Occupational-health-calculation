@@ -10,14 +10,14 @@ import numpy as np
 from numpy import isnan, isinf
 
 '''Step1 Import total cases of non-fatal injuries and illnesses by industry (NAICS codes)'''
-nature2018 = pd.read_excel(r'.\data\allocation_data\Allocation.xlsx', sheet_name = 1, usecols='A:O') # 2018
+nature2018 = pd.read_excel(r'.\data\allocation_data\Allocation_2018.xlsx', sheet_name = 1, usecols='A:O') # 2018
 nature2017 = pd.read_excel(r'.\data\allocation_data\Allocation_2014-2017.xlsx', sheet_name = 0, usecols='A:O') # 2017
 nature2016 = pd.read_excel(r'.\data\allocation_data\Allocation_2014-2017.xlsx', sheet_name = 2, usecols='A:O') # 2016
 nature2015 = pd.read_excel(r'.\data\allocation_data\Allocation_2014-2017.xlsx', sheet_name = 4, usecols='A:O') # 2015
 nature2014 = pd.read_excel(r'.\data\allocation_data\Allocation_2014-2017.xlsx', sheet_name = 6, usecols='A:O') # 2014
 
 '''Step2.1 Import total cases of non-fatal injuries and diseases by age group (BLS division)'''
-age2018 = pd.read_excel(r'.\data\allocation_data\Allocation.xlsx', sheet_name = 2, usecols='A:K') # 2018
+age2018 = pd.read_excel(r'.\data\allocation_data\Allocation_2018.xlsx', sheet_name = 2, usecols='A:K') # 2018
 age2017 = pd.read_excel(r'.\data\allocation_data\Allocation_2014-2017.xlsx', sheet_name = 1, usecols='A:K') # 2017
 age2016 = pd.read_excel(r'.\data\allocation_data\Allocation_2014-2017.xlsx', sheet_name = 3, usecols='A:K') # 2016
 age2015 = pd.read_excel(r'.\data\allocation_data\Allocation_2014-2017.xlsx', sheet_name = 5, usecols='A:K') # 2015

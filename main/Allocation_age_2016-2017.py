@@ -8,8 +8,8 @@ Created on Fri Dec 31 02:01:48 2021
 import pandas as pd
 
 '''Step1：Import original data'''
-# coding_exist = pd.read_excel(r'.\data\original_data\2017\cd_r37_2017.xlsx', skiprows=2, usecols='A:K')
-coding_exist = pd.read_excel(r'.\data\original_data\2016\cd_r37_2016.xlsx', skiprows=2, usecols='A:K')
+# coding_exist = pd.read_excel(r'.\data\original_data\2017\2017_byindustry_byage.xlsx', skiprows=2, usecols='A:K')
+coding_exist = pd.read_excel(r'.\data\original_data\2016\2016_byindustry_byage.xlsx', skiprows=2, usecols='A:K')
 coding_exist = coding_exist.replace('-',0)
 coding_exist = coding_exist.replace('–',0)
 

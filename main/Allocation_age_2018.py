@@ -8,7 +8,7 @@ Created on Mon Nov  8 01:52:31 2021
 import pandas as pd
 
 '''Step1：Import original data'''
-coding_exist = pd.read_excel(r'.\data\original_data\2018\2018_byindustry_byage_SL.xlsx', skiprows=2, usecols='A:K')
+coding_exist = pd.read_excel(r'.\data\original_data\2018\2018_byindustry_byage.xlsx', skiprows=2, usecols='A:K')
 coding_exist = coding_exist.replace('–',0)
 
 # Remove rows with null NAICS codes

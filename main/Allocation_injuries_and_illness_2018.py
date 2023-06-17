@@ -8,7 +8,7 @@ Created on Mon Nov  8 01:00:24 2021
 import pandas as pd
 
 '''Step1：Import original data'''
-coding_exist = pd.read_excel(r'.\data\original_data\2018\2018_byindustry_bynature_SL.xlsx', skiprows=2, usecols='A:S')
+coding_exist = pd.read_excel(r'.\data\original_data\2018\2018_byindustry_bynature.xlsx', skiprows=2, usecols='A:S')
 coding_exist = coding_exist.replace('–',0)
 
 # Reallocate "Total" column under "cuts, lacerations, punctures" catagory (The method is to distribute the uncounted data equally to each counted data)
