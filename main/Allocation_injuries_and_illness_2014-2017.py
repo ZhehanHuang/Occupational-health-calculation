@@ -3,6 +3,8 @@
 Created on Fri Dec 31 01:38:04 2021
 
 @author: huangzehan
+
+Introdction: This file is used to redistribute the number of injuries and illness to all 6-digit industries based on the number of them to 2-digit industries in 2014 to 2017.
 """
 
 import pandas as pd
