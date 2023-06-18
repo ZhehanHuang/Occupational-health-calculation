@@ -2,7 +2,9 @@
 """
 Created on Wed May 25 15:36:20 2022
 
-@author: 黄喆晗
+@author: Zhehan Huang
+
+Introdction: This file is used to calculate the characterization factors for occupational health impacts.
 """
 
 import pandas as pd
