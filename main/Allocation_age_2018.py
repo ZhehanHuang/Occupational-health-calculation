@@ -3,6 +3,8 @@
 Created on Mon Nov  8 01:52:31 2021
 
 @author: huangzehan
+
+Introdction: This file is used to redistribute the original age group of BLS in 2018 to the WHO equivalent age group.
 """
 
 import pandas as pd

@@ -2,7 +2,9 @@
 """
 Created on Fri Dec 31 02:01:48 2021
 
-@author: huangzehan
+@author: Zhehan Huang
+
+Introdction: This file is used to redistribute the original age group of BLS in 2016 and 2017 to the WHO equivalent age group.
 """
 
 import pandas as pd
